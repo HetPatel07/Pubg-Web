@@ -1,0 +1,15 @@
+body {
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: url(/images/aim.png), pointer;
+}
+
+span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-image: url(/images/hole.png);
+    pointer-events: none;
+    transform: translate(25px, 30px);
+}
